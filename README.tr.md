@@ -17,6 +17,7 @@ Windows için hızlı **kopyalama, taşıma, aynalama (eşitleme), silme ve kar�
 ## Özellikler
 
 - **Kopyala, Taşı, Aynalama (Sync), Sil ve Kuru Deneme Karşılaştırması (Diff)** tek pencerede; iş kuyruğu, geçmiş, favori klasörler ve hız / kalan süre gösteren canlı ilerleme
+- **İşlem sekmeleri:** Aktarım görünümünün üstündeki **+** düğmesi yeni bir Kopyala, Taşı, Eşitle, Karşılaştır veya Sil sekmesi açar. Her sekmenin kendi yolları, ayarları, ilerlemesi ve İptal düğmesi vardır ve tüm sekmeler aynı anda çalışır; yani bir işlem için diğerini beklemezsiniz. Sekme başlıkları "mod · kaynak → hedef" şeklindedir. Aynı sürücüdeki iki büyük kopyalama yavaşlarsa **Ayarlar → Genel → Aynı sürücüyü kullanan işlemler sırayla çalışsın** seçeneğini açın.
 - **Hızlı kopyalama:** Büyük bir klasörde Windows kopyalamadan yaklaşık 18 kat hızlı, `robocopy /MT:16` ile aynı seviyede. Sayılar için [Hız](#hız) bölümüne bakın.
 - **Büyük dosyalar** Windows önbelleğini doldurmayan bir Direct I/O hattıyla kopyalanır; iptal düğmesi her zaman çalışır. ReFS / Dev Drive birimlerinde dosyalar anında klonlanabilir.
 - **Aynı sürücü içinde taşıma** yalnızca yeniden adlandırmadır, yani anlıktır.

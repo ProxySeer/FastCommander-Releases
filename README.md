@@ -17,6 +17,7 @@ A fast file **copy, move, mirror-sync, delete and compare** tool for Windows, wi
 ## What it does
 
 - **Copy, Move, Mirror Sync, Delete and Dry-Run Diff** in one window, with a job queue, history, favorite folders and a live progress view showing speed and time remaining.
+- **Operation tabs.** The **+** button above the transfer view opens a new Copy, Move, Sync, Diff or Delete tab. Every tab has its own paths, options, progress and Cancel, and all tabs run at the same time, so you never wait for one operation to start another. Tab titles read "mode · source → destination". If two big copies on one drive get slow, turn on **Options > General > Take turns when operations use the same drive**.
 - **Fast copies.** About 18 times faster than the Windows copy and level with `robocopy /MT:16` on a large folder in the author's tests; see [Speed](#speed) for the numbers.
 - **Large files** use a Direct I/O pipeline that avoids filling the Windows file cache, and Cancel stays responsive. On ReFS / Dev Drive volumes it can clone files instantly.
 - **Moves within one drive are renames**, so they are instant.
